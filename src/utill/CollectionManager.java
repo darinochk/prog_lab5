@@ -302,4 +302,20 @@ public class CollectionManager {
         }
         
     }
+
+    public void filterContainsName() {
+        Scanner scanner = new Scanner(System.in);
+        double  val = 0;
+        try {
+            val = scanner.nextDouble();
+        } catch (Exception e) {
+            System.out.println("Ошибка ввода");
+        }
+
+        for (Map.Entry<Integer, Vehicle> e : collection.entrySet()) {
+            if (Double.parseDouble(e.getValue().getName()) == val)
+                System.out.println(e.getValue());
+        }
+
+    }
 }

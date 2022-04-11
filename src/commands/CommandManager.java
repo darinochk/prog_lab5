@@ -157,7 +157,7 @@ public class CommandManager {
         }
 
         public void filterContainsName() {
-//            collectionManager.filterContainsName();
+           collectionManager.filterContainsName();
         }
     }
 }
