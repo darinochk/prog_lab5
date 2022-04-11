@@ -153,7 +153,7 @@ public class CommandManager {
         }
 
         public void filterByEnginePower() {
-//            collectionManager.filterByEnginePower();
+            collectionManager.filterByEnginePower();
         }
 
         public void filterContainsName() {

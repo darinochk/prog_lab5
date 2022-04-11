@@ -287,45 +287,19 @@ public class CollectionManager {
         System.out.println("Команда успешно выполнена");
     }
 
-    /**
-     * Метод, реализующий команду print_ascending
-     */
-//    public void printAscending() {
-//        if (!collection.isEmpty()) {
-//            SortedSet<Vehicle> sortedSet = new TreeSet<>(new Comparator<Vehicle>() {
-//                @Override
-//                public int compare(Vehicle o1, Vehicle o2) {
-//                    return o1.getPrice() - o2.getPrice();
-//                }
-//            });
-//            for (Map.Entry<Integer, Vehicle> e : collection.entrySet()) {
-//                sortedSet.add(e.getValue());
-//            }
-//            for (Vehicle s : sortedSet) {
-//                System.out.println(s);
-//            }
-//        }
-//        else System.out.println("Коллекция пуста");
-//    }
+    public void filterByEnginePower() {
+        Scanner scanner = new Scanner(System.in);
+        double val = 0;
+        try {
+            val = scanner.nextDouble();
+        } catch (Exception e) {
+            System.out.println("Ошибка ввода");
+        }
 
-    /**
-     * Метод, реализующий команду print_descending
-     */
-//    public void printDescending() {
-//        if (!collection.isEmpty()) {
-//            SortedSet<Vehicle> sortedSet = new TreeSet<>(new Comparator<Vehicle>() {
-//                @Override
-//                public int compare(Vehicle o1, Vehicle o2) {
-//                    return o2.getPrice() - o1.getPrice();
-//                }
-//            });
-//            for (Map.Entry<Integer, Vehicle> e : collection.entrySet()) {
-//                sortedSet.add(e.getValue());
-//            }
-//            for (Vehicle s : sortedSet) {
-//                System.out.println(s);
-//            }
-//        }
-//        else System.out.println("Коллекция пуста");
-//    }
+        for (Map.Entry<Integer, Vehicle> e : collection.entrySet()) {
+            if (e.getValue().getEnginePower() == val)
+                System.out.println(e.getValue());
+        }
+        
+    }
 }
