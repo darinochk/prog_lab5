@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="bndly.common.rest.global.jaxbcontext.provider" type="repository">
+    <properties maven-id="org.bndly.common.rest:org.bndly.common.rest.global-jaxbcontext-provider:1.0.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/rest/org.bndly.common.rest.global-jaxbcontext-provider/1.0.1/org.bndly.common.rest.global-jaxbcontext-provider-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/rest/org.bndly.common.rest.api/1.0.1/org.bndly.common.rest.api-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/org.bndly.common.lang/1.0.1/org.bndly.common.lang-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/data/org.bndly.common.data.io/1.0.1/org.bndly.common.data.io-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/osgi/org.osgi.annotation.bundle/1.0.0/org.osgi.annotation.bundle-1.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/rest/org.bndly.common.rest.client-api/1.0.1/org.bndly.common.rest.client-api-1.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bndly/common/rest/org.bndly.common.rest.annotations/1.0.1/org.bndly.common.rest.annotations-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

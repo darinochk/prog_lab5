@@ -1,0 +1,4 @@
+info
+info
+show
+execute_script src/sc.txt
